@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	int n = 5;
+	int a = 5;
+	int b = 3;
 
-	for(int i = 0; i < n; i++)
-		printf("%d\n", i + 1);
+	if(a == b)
+		printf("Wrong!\n");
+	else
+		printf("True\n");
 
 	return 0;
 }
-
